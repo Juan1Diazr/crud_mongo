@@ -1,0 +1,33 @@
+{
+  "name": "mongo_crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^5.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "express-session": "^1.18.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.8.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "pdfmake": "^0.2.4"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^17.1.11"
+  }
+}
